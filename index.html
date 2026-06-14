@@ -14,7 +14,7 @@
     --ink:#3c3119; --ink2:#6a5a39; --muted:#9c8a63;
     --line:#f1e7cf; --line2:#ecdfbf;
     --bg:#fffaf0; --panel:#ffffff;
-    --gold:#c8901f; --gold-ink:#a9760f; --gold-soft:#fbf1d6; --amber:#e89318;
+    --gold:#e8a23a; --gold-ink:#c07d1e; --gold-soft:#fff4df; --amber:#f4a94e;
     --shadow:0 1px 2px rgba(120,90,20,.05), 0 14px 36px -18px rgba(180,130,30,.30);
     --shadow-lg:0 4px 10px rgba(120,90,20,.08), 0 44px 80px -34px rgba(180,130,30,.46);
     --radius:22px; --maxw:1120px;
@@ -47,7 +47,7 @@
   .nav-links{display:flex; gap:4px; align-items:center}
   .nav-links a{color:var(--ink2); font-weight:600; font-size:.92rem; padding:9px 15px; border-radius:11px; transition:.15s}
   .nav-links a:hover{color:var(--gold-ink); background:var(--gold-soft)}
-  .nav-links a.cta{color:#fff; background:linear-gradient(135deg,var(--amber),var(--gold)); box-shadow:0 10px 22px -10px var(--gold); margin-left:6px}
+  .nav-links a.cta{color:#fff; background:linear-gradient(135deg,var(--amber),var(--gold)); box-shadow:0 10px 22px -10px var(--gold); margin-left:6px; text-shadow:0 1px 1.5px rgba(150,90,20,.35)}
   @media (max-width:780px){ .nav-links a:not(.cta){display:none} }
   /* hero */
   .hero{position:relative; overflow:hidden; padding:84px 0 70px;
@@ -65,7 +65,7 @@
   .hero-copy p.sub .zh{display:block; font-size:.88rem; margin-top:8px}
   .actions{display:flex; gap:13px; flex-wrap:wrap; margin-top:28px}
   .btn{display:inline-flex; align-items:center; gap:9px; font-weight:750; font-size:1rem; padding:14px 26px; border-radius:14px; transition:.16s; border:1px solid transparent; cursor:pointer}
-  .btn.primary{color:#fff; background:linear-gradient(135deg,var(--amber),var(--gold)); box-shadow:0 16px 34px -14px var(--gold)}
+  .btn.primary{color:#fff; background:linear-gradient(135deg,var(--amber),var(--gold)); box-shadow:0 16px 34px -14px var(--gold); text-shadow:0 1px 1.5px rgba(150,90,20,.35)}
   .btn.primary:hover{transform:translateY(-2px); filter:brightness(1.05)}
   .btn.ghost{color:var(--ink2); background:rgba(255,255,255,.88); border-color:var(--line2); box-shadow:var(--shadow)}
   .btn.ghost:hover{border-color:#e2c98f; color:var(--gold-ink); transform:translateY(-2px)}
