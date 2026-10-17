@@ -31,3 +31,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://open.cait518.cc/scanto-support/sitemap.xml
+
+Sitemap: https://open.cait518.cc/scanto-support/bm-sitemap.xml
