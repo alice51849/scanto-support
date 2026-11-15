@@ -21,4 +21,5 @@
 
 <!-- sqe-blitz:start -->
 - [Offline receipt scanner app: questions before you download (English)](https://open.cait518.cc/scanto-support/offline-receipt-scanner-app-questions.html)
+- [What is ScanTo Pro? Who it is for, how it is sold and how it differs (English)](https://open.cait518.cc/scanto-support/what-is-scanto.html)
 <!-- sqe-blitz:end -->
