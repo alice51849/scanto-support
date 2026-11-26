@@ -93,6 +93,7 @@
   .section-head{max-width:720px; margin:0 auto 44px; text-align:center}
   .section-head h2{font-size:clamp(1.8rem,3.6vw,2.5rem); margin:.1em 0 .3em; letter-spacing:-.6px; font-weight:840}
   .section-head p{color:var(--ink2); margin:0; font-size:1.05rem}
+  .section-head p .zh{display:block; margin-top:6px; font-size:.92rem}
   .feat-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
   .feat{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:28px 26px; box-shadow:var(--shadow); transition:.2s}
   .feat:hover{transform:translateY(-4px); box-shadow:var(--shadow-lg); border-color:var(--line2)}
@@ -112,6 +113,7 @@
   .col ul{list-style:none; margin:18px 0 0; padding:0}
   .col li{padding:9px 0; border-top:1px dashed var(--line2); font-size:.96rem; display:flex; gap:10px; align-items:flex-start}
   .col.them li{color:var(--muted)}
+  .col li .zh{display:block; margin-top:3px; font-size:.86rem}
   @media (max-width:720px){ .compare{grid-template-columns:1fr} }
   /* faq */
   .faq{max-width:800px; margin:0 auto}
@@ -255,7 +257,7 @@
   <div class="trust-grid">
     <div class="trust-card reveal d1"><div class="ic">🔒</div><b>100% Offline</b><span>No cloud, no network. 完全離線。</span></div>
     <div class="trust-card reveal d2"><div class="ic">🙅</div><b>No Account</b><span>No sign-up ever. 免帳號。</span></div>
-    <div class="trust-card reveal d3"><div class="ic">💛</div><b>Pay Once</b><span>No subscription. 一次買斷。</span></div>
+    <div class="trust-card reveal d3"><div class="ic">💛</div><b>Pay Once on iPhone</b><span>No subscription. iPhone 版一次買斷、無訂閱。</span></div>
     <div class="trust-card reveal d4"><div class="ic">🛡️</div><b>Encrypted</b><span>Face ID + PDF passwords. 加密保護。</span></div>
   </div>
 </div>
@@ -282,8 +284,8 @@
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Why ScanTo Pro</p>
-      <h2>One price. No subscription.</h2>
-      <p>Most scanners rent you your own documents through a subscription. ScanTo Pro doesn't.</p>
+      <h2>On iPhone: one price, no subscription.</h2>
+      <p>Most scanners rent you your own documents through a subscription. ScanTo Pro for iPhone doesn't.<span class="zh">多數掃描 App 用訂閱收費；ScanTo Pro iPhone 版不用訂閱。</span></p>
     </div>
     <div class="compare">
       <div class="col them reveal d1">
@@ -299,9 +301,10 @@
       </div>
       <div class="col us reveal d2">
         <span class="tag">ScanTo Pro</span>
-        <h3>One-time purchase</h3>
+        <h3>One-time purchase on iPhone</h3>
         <ul>
-          <li>💛 Pay once — every feature included</li>
+          <li><span>💛 iPhone: pay once — every feature included<span class="zh">iPhone 版一次買斷，所有功能全包</span></span></li>
+          <li><span>🤖 Google Play: a few scans free, an in-app purchase unlocks the full version<span class="zh">Google Play 版可免費掃描幾份，App 內購買解鎖完整版</span></span></li>
           <li>🔒 100% on-device, works in Airplane Mode</li>
           <li>🙅 No account, no sign-up</li>
           <li>🚫 Zero analytics, zero ads, zero SDKs</li>
@@ -354,7 +357,7 @@
       <span class="badge">100% Offline</span>
       <span class="badge">No Account</span>
       <span class="badge">No Tracking</span>
-      <span class="badge">Pay Once</span>
+      <span class="badge">Pay Once on iPhone</span>
       <span class="badge">Face ID</span>
       <span class="badge">Encrypted PDF</span>
     </div>
